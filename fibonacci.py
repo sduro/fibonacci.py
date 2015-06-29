@@ -1,3 +1,4 @@
+#Fibonacci Code (100 first numbers) and calculate the PHI number
 import array
 c=array.array('f',(0 for i in range(0,100)))
 lista={}

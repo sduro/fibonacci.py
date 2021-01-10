@@ -1,3 +1,5 @@
+#Calculate the exponential 
+
 def iterPower(base, exp):
     '''
     base: int or float.

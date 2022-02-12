@@ -1,3 +1,4 @@
+import sys
 #Calculate the exponential 
 
 def iterPower(base, exp):
@@ -16,4 +17,15 @@ def iterPower(base, exp):
     for index in (range(exp-1)):
         resultado=resultado*base
     return resultado
-print iterPower(9.92, 4)
+
+def main():
+    try:
+        print(iterPower(int(sys.argv[1]),int(sys.argv[2])))
+    except:
+        print ("Faltan argumentos\nUsar como base_exp.py [base] [exponente] ")
+    
+if __name__ == '__main__':
+    main()
+
+
+
